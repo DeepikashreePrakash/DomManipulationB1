@@ -188,6 +188,7 @@ const saveEdit = (e) => {
   submitButton.setAttribute("data-bs-toggle", "modal");
   submitButton.setAttribute("data-bs-target", "#showTask");
   submitButton.innerHTML = "Open Task";
+  
 };
 
 const searchTask = (e) => {
